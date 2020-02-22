@@ -3230,7 +3230,6 @@
   color: #8b8b8b;
   font-size: 15px;
   font-weight: 300;
-  margin-bottom: 36px;
 }
 
 .route {
@@ -3250,6 +3249,7 @@
 }
 
 .route__item {
+  margin-top: 35px;
   box-shadow: 0 2px 0 #e1e0d8;
   width: calc(25% - 30px);
   background-color: #fff;
@@ -3337,10 +3337,6 @@
 }
 
 .credits {
-  box-sizing: border-box;
-  word-wrap: break-word;
-  margin-left: 15px;
-  margin-right: 15px;
   width: calc(50% - 30px);
   color: #8b8b8b;
 }
@@ -3379,6 +3375,7 @@
 }
 
 body {
+  overflow-x: hidden;
   margin: 0;
   color: #323232;
   font-family: 'Open Sans', sans-serif;
@@ -3572,10 +3569,6 @@ body img {
   }
 
   .route__item {
-    margin-bottom: 20px;
-  }
-
-  .route__item {
     text-align: center;
   }
 
@@ -3638,10 +3631,6 @@ body img {
   }
 
   .route__item {
-    margin-bottom: 20px;
-  }
-
-  .route__item {
     text-align: center;
   }
 
@@ -3691,8 +3680,16 @@ body img {
     flex-direction: column;
   }
 
+  .offer input {
+    padding: 15px 0 10px 15px;
+  }
+
   .offer__title {
     font-size: 25px;
+  }
+
+  .offer button {
+    padding: 15px 0 10px;
   }
 
   .route__items {
@@ -3704,11 +3701,71 @@ body img {
   }
 
   .route__item {
-    margin-bottom: 20px;
+    text-align: center;
   }
 
-  .route__item {
+  .route__title {
+    font-size: 17px;
+  }
+
+  .route__desc {
+    font-size: 14px;
+  }
+
+  .details__title-heading {
+    font-size: 33px;
+  }
+
+  .details__item {
+    width: calc(100% - 30px);
+  }
+
+  .details__item-title {
+    font-size: 18px;
+  }
+
+  .details__item-text {
+    font-size: 16px;
+  }
+
+  .credits {
+    width: calc(100% - 30px);
+  }
+
+  .credits {
     text-align: center;
+  }
+
+  .menu {
+    width: calc(100% - 30px);
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu {
+    margin-top: 15px;
+  }
+
+  .menu {
+    text-align: center;
+  }
+
+  .menu__item {
+    margin-bottom: 15px;
+  }
+
+  .menu__item {
+    margin-right: 0;
+  }
+
+  .row__footer {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: calc(66.66667% - 30px);
   }
 }
 
